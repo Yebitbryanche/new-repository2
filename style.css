@@ -1,0 +1,121 @@
+.container1 {
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-box-container-1  {
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-box-container-1 div {
+display: flex;
+padding: 10px;
+border: 1px solid black;
+align-items: center;
+}
+
+/* second project */
+
+.container2{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+}
+.flex-box-container2{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+ 
+
+.flex-box-container2 img{
+    width: 10em;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.7);
+    margin: 10px;
+}
+
+
+
+/*third project*/
+.container3, .container4, .container5{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-box-rps, .flex-box-pick-color,
+ .flex-blackjack-row1, .flex-blackjack-row2, .flex-blackjack-row3 {
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+    cursor: pointer;
+}
+
+
+.flex-blackjack-row1, .flex-blackjack-row2 {
+  background: url(background.jfif) center;
+  color: #fff;
+  background-size: cover;
+
+}
+
+.flex-blackjack-row1 div {
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 360px;
+    overflow: hidden;
+}
+
+.flex-blackjack-row2 button{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+.flex-blackjack-row2 div{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+.flex-blackjack-row1 img{
+    width: 25%;
+    padding: 10px;
+}
+
+
+table{
+    padding: 5px;
+    border: 1px solid black;
+}
+
+tr td{
+    padding: 5px;
+    border: 1px solid black;
+}
+
+tr th{
+    padding: 5px;
+    border: 1px solid black;
+}
+
